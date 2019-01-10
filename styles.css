@@ -40,13 +40,13 @@ a {
 
 .nav-left {
   display: inline-block;
-  margin: 20px 20px 20px 20px;
+  margin: 12px 20px 12px 20px;
   left: 0;
 }
 
 .nav-right {
   display: inline-block;
-  margin: 20px 20px 20px 20px;
+  margin: 12px 20px 12px 20px;
   right: 0;
 }
 
