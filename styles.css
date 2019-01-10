@@ -82,7 +82,7 @@ p {
 }
 
 .compatibility-hidden {
-  display: hidden;
+  display: none;
 }
 
 footer {
