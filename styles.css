@@ -54,6 +54,11 @@ p {
   margin-left: 20px;
 }
 
+.nav-image {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
 .nav-link {
   text-decoration: none;
   color: white;
