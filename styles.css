@@ -56,23 +56,23 @@ p {
 }
 
 .nav-image {
-  width: 0.9rem;
-  height: 0.9rem;
+  width: 16px;
+  height: 16px;
   position: relative;
   top: 2px;
 }
 
 #nav-profile-picture {
-  width: 1.1rem;
-  height: 1.1rem;
-  border-radius: 0.55rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
   top: 3px;
 }
 
 .nav-link {
   text-decoration: none;
   color: white;
-  font-size: 0.9rem;
+  font-size: 16px;
 }
 
 .light-text {
