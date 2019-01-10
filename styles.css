@@ -72,10 +72,15 @@ nav {
 }
 
 #main-content {
-  margin-top: 40px;
+  margin-top: 80px;
   background-color: #202020;
 }
 
 .compatibility-hidden {
   display: hidden;
+}
+
+footer {
+  color: #808080;
+  font-size: 0.5rem;
 }
