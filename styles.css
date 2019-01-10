@@ -22,7 +22,7 @@ nav {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
 }
 
 @supports ( -webkit-backdrop-filter: none ) or ( backdrop-filter: none ) {
@@ -57,7 +57,7 @@ p {
 .nav-link {
   text-decoration: none;
   color: white;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 
 .light-text {
@@ -87,12 +87,12 @@ p {
 
 .footer-normal {
   color: #808080;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 
 .footer-light {
   color: #606060;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 
 .footer-link {
