@@ -39,12 +39,14 @@ a {
 }
 
 .nav-left {
-  display: inline;
+  display: inline-block;
+  position: absolute;
   left: 20px;
 }
 
 .nav-right {
-  display: inline;
+  display: inline-block;
+  position: absolute;
   right: 20px;
 }
 
