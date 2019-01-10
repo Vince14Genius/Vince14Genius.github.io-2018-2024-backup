@@ -40,11 +40,13 @@ a {
 
 .nav-left {
   display: inline-block;
+  position: fixed;
   left: 20px;
 }
 
 .nav-right {
   display: inline-block;
+  position: fixed;
   right: 20px;
 }
 
