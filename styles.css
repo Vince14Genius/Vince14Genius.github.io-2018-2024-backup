@@ -77,12 +77,16 @@ p {
 }
 
 #main-content {
-  padding: 60px 30px 60px 30px;
+  padding: 60px 30px 40px 30px;
   background-color: #202020;
 }
 
 .compatibility-hidden {
   display: hidden;
+}
+
+footer {
+  padding: 40px 30px 40px 30px;
 }
 
 .footer-normal {
