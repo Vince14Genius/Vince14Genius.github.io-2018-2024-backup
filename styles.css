@@ -37,6 +37,7 @@ p {
   display: inline-block;
   left: 20px;
   top: 10px;
+  color: 80E0E0;
 }
 
 .nav-right {
@@ -57,6 +58,15 @@ p {
 .nav-image {
   width: 0.9rem;
   height: 0.9rem;
+  position: relative;
+  top: 2px;
+}
+
+#nav-profile-picture {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 0.55rem;
+  top: 3px;
 }
 
 .nav-link {
