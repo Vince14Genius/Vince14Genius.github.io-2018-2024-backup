@@ -55,11 +55,27 @@ nav {
   color: white;
 }
 
+.light-text {
+  font-weight: light;
+}
+
+.link-disabled {
+  opacity: 0.5;
+}
+
 #nav-right-button {
-  
+  display: none;
 }
 
 #nav-right-menu {
   
 }
 
+#main-content {
+  margin-top: 40px;
+  background-color: #202020;
+}
+
+.compatibility-hidden {
+  display: hidden;
+}
