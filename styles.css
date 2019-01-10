@@ -40,13 +40,13 @@ a {
 
 .nav-left {
   display: inline-block;
-  margin: 0 20px 0 20px;
+  margin: 20px 20px 20px 20px;
   left: 0;
 }
 
 .nav-right {
   display: inline-block;
-  margin: 0 20px 0 20px;
+  margin: 20px 20px 20px 20px;
   right: 0;
 }
 
@@ -102,7 +102,7 @@ a {
 }
 
 #main-content {
-  padding: 60px 0 40px 0;
+  padding: 60px 20px 40px 20px;
   background-color: #202020;
 }
 
@@ -111,7 +111,7 @@ a {
 }
 
 footer {
-  padding: 15px 0 40px 0;
+  padding: 15px 20px 40px 20px;
 }
 
 .footer-normal {
