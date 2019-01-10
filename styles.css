@@ -25,6 +25,11 @@ p {
   font-size: 1.0rem;
 }
 
+a {
+  color: #80C0E0;
+  text-decoration: none;
+}
+
 @supports ( -webkit-backdrop-filter: none ) or ( backdrop-filter: none ) {
   nav {
     background-color: rgba(0, 0, 0, 0.6);
