@@ -39,12 +39,12 @@ a {
 }
 
 .nav-left {
-  display: inline-block;
+  display: inline;
   left: 20px;
 }
 
 .nav-right {
-  display: inline-block;
+  display: inline;
   right: 20px;
 }
 
@@ -78,7 +78,7 @@ a {
 }
 
 .nav-left .nav-link {
-  color: 80E0E0;
+  color: #80E0E0;
 }
 
 .light-text {
