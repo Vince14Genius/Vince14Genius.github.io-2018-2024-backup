@@ -19,7 +19,7 @@ nav {
   top: 0px;
   width: 100%;
   background-color: #0a0a0a;
-  padding: 14px 14px 14px 14px;
+  padding: 6px 0 6px 0;
 }
 
 p {
@@ -60,12 +60,12 @@ a {
 
 .nav-left {
   display: inline-block;
-  left: 0;
+  margin-left: 16px;
 }
 
 .nav-right {
   display: inline-block;
-  right: 0;
+  margin-right: 16px;
   float: right;
 }
 
