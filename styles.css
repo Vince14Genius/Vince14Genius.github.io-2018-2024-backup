@@ -39,11 +39,18 @@ a {
   }
 }
 
-.main-width-wrapper {
-  max-width: 768px;
+.main-width-wrapper, .exterior-width-wrapper {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.main-width-wrapper {
+  max-width: 768px;
+}
+
+.exterior-width-wrapper {
+  max-width: 960px;
 }
 
 .nav-left {
