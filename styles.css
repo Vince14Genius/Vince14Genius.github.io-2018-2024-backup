@@ -19,13 +19,16 @@ nav {
   top: 0px;
   width: 100%;
   background-color: #a0a0a0;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding: 0 14px 0 14px;
 }
 
 p {
   font-size: 1.0rem;
   line-height: 1.5;
+}
+
+.compact-line-height {
+  line-height: 0.9;
 }
 
 a {
@@ -44,8 +47,7 @@ a {
 .main-width-wrapper, 
 .exterior-width-wrapper {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 0 auto;
 }
 
 .main-width-wrapper {
@@ -86,9 +88,8 @@ a {
 #nav-profile-picture {
   width: 20px;
   height: 20px;
+  border: 1px solid #80E0E0;
   border-radius: 10px;
-  border-width: 1px;
-  border-color: #80E0E0;
   top: 3px;
 }
 
