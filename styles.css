@@ -93,7 +93,7 @@ a {
 }
 
 .light-text {
-  font-weight: light;
+  font-weight: 300;
 }
 
 .link-disabled {
