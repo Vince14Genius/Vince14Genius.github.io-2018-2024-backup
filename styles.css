@@ -38,6 +38,11 @@ a {
   }
 }
 
+.main-width-wrapper {
+  max-width: 768;
+  width: 100%;
+}
+
 .nav-left {
   display: inline-block;
   margin: 12px 20px 12px 20px;
