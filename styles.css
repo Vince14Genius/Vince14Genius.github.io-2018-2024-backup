@@ -32,7 +32,7 @@ p {
 }
 
 a {
-  color: #80C0E0;
+  color: #80c0e0;
   text-decoration: none;
 }
 
@@ -118,10 +118,6 @@ a {
   display: none;
 }
 
-#nav-right-menu {
-  
-}
-
 #main-content {
   padding: 60px 20px 40px 20px;
   background-color: #202020;
@@ -147,7 +143,7 @@ footer {
 
 .footer-link {
   text-decoration: none;
-  color: #E0E0E0
+  color: #e0e0e0
 }
 
 .footer-hr {
