@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #101010;
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 #skip-to-main-button {
@@ -18,7 +18,9 @@ nav {
   left: 0px;
   top: 0px;
   width: 100%;
-  background-color: black;
+  background-color: #a0a0a0;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 p {
@@ -56,13 +58,11 @@ a {
 
 .nav-left {
   display: inline-block;
-  margin: 12px 20px 12px 20px;
   left: 0;
 }
 
 .nav-right {
   display: inline-block;
-  margin: 12px 20px 12px 20px;
   right: 0;
   float: right;
 }
