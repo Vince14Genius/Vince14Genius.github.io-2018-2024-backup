@@ -64,8 +64,7 @@ a {
 }
 
 .nav-left-inner {
-  position: relative;
-  top: 3px;
+  /* currently not needed */
 }
 
 .nav-right {
@@ -91,11 +90,11 @@ a {
 }
 
 #nav-profile-picture {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   border: 1px solid rgba(128, 224, 224, 0.5);
-  border-radius: 12px;
-  top: 6px;
+  border-radius: 15px;
+  top: 10px;
 }
 
 .nav-link {
