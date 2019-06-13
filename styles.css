@@ -125,6 +125,10 @@ a {
   overflow: hidden;
 }
 
+.content-img {
+  max-width: 100%;
+}
+
 .compatibility-hidden {
   display: none;
 }
