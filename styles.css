@@ -31,6 +31,10 @@ p {
   line-height: 0.9;
 }
 
+.centered {
+  text-align: center;
+}
+
 a {
   color: #80c0e0;
   text-decoration: none;
