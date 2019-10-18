@@ -2,6 +2,6 @@
 
 ## Todo
 
-* fix nav bar on displays with notches (landscape mode)
+- [ ] fix nav bar on displays with notches (landscape mode)
 
-* add new class(es) for projects list
+- [x] add new class(es) for projects list
