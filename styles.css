@@ -59,6 +59,14 @@ a {
   margin: 0 auto 0 auto;
 }
 
+@supports(padding: max(0px)) {
+    .main-width-wrapper, 
+    .exterior-width-wrapper {
+        padding-left: max(12px, env(safe-area-inset-left));
+        padding-right: max(12px, env(safe-area-inset-right));
+    }
+}
+
 .main-width-wrapper {
   max-width: 768px;
 }
