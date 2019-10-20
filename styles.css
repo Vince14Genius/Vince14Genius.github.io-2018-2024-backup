@@ -60,8 +60,7 @@ a {
 }
 
 @supports(padding: max(0px)) {
-    .main-width-wrapper, 
-    .exterior-width-wrapper {
+    .main-width-wrapper {
         padding-left: max(12px, env(safe-area-inset-left));
         padding-right: max(12px, env(safe-area-inset-right));
     }
