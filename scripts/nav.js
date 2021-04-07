@@ -1,6 +1,6 @@
 "use strict"
 
-const universalNav = document.getElementByID("universal-nav")
+const universalNav = document.getElementById("universal-nav")
 universalNav.innerHTML = `
 <a id="skip-to-main-button" href="#main-content">Skip to main content</a>
 
