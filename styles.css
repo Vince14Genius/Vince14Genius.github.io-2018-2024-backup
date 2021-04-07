@@ -29,6 +29,7 @@ p {
 
 p img {
   max-height: 1.0rem;
+  display: inline;
 }
 
 .compact-line-height {
