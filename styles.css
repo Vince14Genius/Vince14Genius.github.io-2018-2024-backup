@@ -27,9 +27,13 @@ p {
   line-height: 1.5;
 }
 
+p a {
+  display: inline-block;
+}
+
 p img {
   max-height: 1.0rem;
-  display: inline;
+  display: inline-block;
 }
 
 .compact-line-height {
