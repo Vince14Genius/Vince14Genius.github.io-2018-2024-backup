@@ -21,7 +21,7 @@ universalNav.innerHTML = `
       <li class="nav-item"><a class="nav-link light-text" href="/about">About</a>
       <li class="nav-item"><a class="nav-link light-text" href="/projects">Projects</a>
       <li class="nav-item"><a class="nav-link light-text link-disabled">Blog</a>
-      <li class="nav-item"><a class="nav-link" href="/site-map"><img class="nav-image" alt="Site Map" src="/images/search.svg"></a>
+      <!--<li class="nav-item"><a class="nav-link" href="/site-map"><img class="nav-image" alt="Site Map" src="/images/search.svg"></a>-->
     </ul>
   </div>
 </nav>
