@@ -236,3 +236,14 @@ img.centered {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.social-media-link {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+
+.social-media-link img {
+    height: 2rem;
+    display: block;
+}
