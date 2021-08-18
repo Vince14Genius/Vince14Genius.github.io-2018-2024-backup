@@ -218,7 +218,7 @@ img.centered {
 /******** MARK: Specific Custom Classes ********/
 
 #main-content {
-    padding: 3.6rem 1.2rem 2.4rem 1.2rem;
+    padding: 4rem 0.5rem;
     background-color: var(--background-color-secondary);
     overflow: hidden;
 }
