@@ -2,7 +2,7 @@
 
 function toggleMenu() {
     const menuElement = document.getElementById("nav-right-menu")
-    menuElement.style.display = menuElement.style.display === "none" ? "inline-block" : "none"
+    menuElement.style.display = menuElement.style.display === "none" ? "block" : "none"
 }
 
 const universalNav = document.getElementById("universal-nav")
