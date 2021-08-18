@@ -237,3 +237,7 @@ img.centered {
     height: 2rem;
     display: block;
 }
+
+.branding-name-heading {
+    font-weight: light;
+}
