@@ -54,6 +54,7 @@ p img {
 img.centered {
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 
 a {
@@ -186,4 +187,12 @@ footer {
 
 .footer-hr {
   opacity: 0.5;
+}
+
+.profile-icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
