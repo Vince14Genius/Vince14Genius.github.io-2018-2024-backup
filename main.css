@@ -241,9 +241,10 @@ img.centered {
     width: 3rem;
     height: 3rem;
     margin: 0.5rem;
+    display: inline-block;
 }
 
 .social-media-link img {
     height: 2rem;
-    display: inline-block;
+    display: block;
 }
