@@ -237,7 +237,7 @@ img.centered {
 }
 
 .social-media-link img {
-    
+    width: 100%;
     display: block;
 }
 
