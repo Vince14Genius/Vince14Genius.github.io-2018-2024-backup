@@ -225,7 +225,7 @@ img.centered {
 
 .bordered-section {
     border-radius: 8px;
-    background-color: var(--background-color-primary);
+    background-color: var(--background-color-tertiary);
     padding: 2rem;
 }
 
