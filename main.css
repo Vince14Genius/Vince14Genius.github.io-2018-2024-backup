@@ -127,7 +127,7 @@ nav {
     display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 799px) {
     #nav-right-button {
         display: inline-block;
     }
@@ -140,6 +140,12 @@ nav {
 
     .nav-item {
         display: block;
+    }
+}
+
+@media (min-width: 800px) {
+    #nav-right-menu {
+        display: inline-block;
     }
 }
 
