@@ -1,5 +1,10 @@
 "use strict"
 
+function toggleMenu() {
+    const menuElement = document.getElementById("nav-right-menu")
+    menuElement.style.display = menuElement.style.display === "none" ? "inline-block" : "none"
+}
+
 const universalNav = document.getElementById("universal-nav")
 universalNav.innerHTML = `
 <a id="skip-to-main-button" href="#main-content">Skip to main content</a>
@@ -13,7 +18,7 @@ universalNav.innerHTML = `
       </a>
     </div>
     <div class="nav-right" id="nav-right-button">
-      <a class="nav-link"><img class="nav-image" alt="Menu"></a>
+      <a class="nav-link" onclick="toggleMenu"><img class="nav-image" alt="Menu"></a>
     </div>
     <ul class="nav-right nav-ul" id="nav-right-menu">
       <li class="nav-item"><a class="nav-link light-text" href="/about">About</a>
