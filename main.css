@@ -226,7 +226,7 @@ img.centered {
     height: 200px;
     border-radius: 100px;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .social-media-link {
@@ -243,4 +243,6 @@ img.centered {
 
 .branding-name-heading {
     font-weight: normal;
+    font-size: x-large;
+    margin-bottom: 2rem;
 }
