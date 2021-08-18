@@ -35,17 +35,6 @@ p {
     line-height: 1.5;
 }
 
-p a {
-    display: inline-block;
-}
-
-p img {
-    max-height: 1.0rem;
-    margin-left: 0.3rem;
-    margin-right: 0.3rem;
-    display: inline-block;
-}
-
 a {
     color: var(--text-color-accent);
     text-decoration: none;
