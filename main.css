@@ -149,7 +149,7 @@ footer {
 }
 
 .footer-hr {
-    opacity: 0.33;
+    opacity: 0.25;
 }
 
 /******** MARK: General Custom Classes ********/
@@ -174,7 +174,8 @@ img.centered {
 }
 
 @supports(padding: max(0px)) {
-    .main-width-wrapper {
+    .main-width-wrapper, 
+    .exterior-width-wrapper {
         padding-left: max(12px, env(safe-area-inset-left));
         padding-right: max(12px, env(safe-area-inset-right));
     }
