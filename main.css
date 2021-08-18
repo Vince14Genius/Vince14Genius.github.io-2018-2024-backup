@@ -245,4 +245,5 @@ img.centered {
     font-weight: normal;
     font-size: x-large;
     margin-bottom: 2rem;
+    color: var(--text-color-hint);
 }
