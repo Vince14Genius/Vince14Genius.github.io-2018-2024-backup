@@ -226,6 +226,7 @@ img.centered {
 .bordered-section {
     border-radius: 6px;
     background-color: var(--background-color-primary);
+    padding: 2rem;
 }
 
 .profile-icon {
