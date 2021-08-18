@@ -12,11 +12,9 @@ universalNav.innerHTML = `
         <span class="nav-left-inner"> Vince14Genius</span>
       </a>
     </div>
-    <!--
-    <div class="nav-right" id="nav-right-button">
+    <div class="nav-right" id="nav-right-button" hidden>
       <a class="nav-link"><img class="nav-image" alt="Menu"></a>
     </div>
-    -->
     <ul class="nav-right nav-ul" id="nav-right-menu">
       <li class="nav-item"><a class="nav-link light-text" href="/about">About</a>
       <li class="nav-item"><a class="nav-link light-text" href="/projects">Projects</a>
