@@ -223,6 +223,11 @@ img.centered {
     overflow: hidden;
 }
 
+.bordered-section {
+    border-radius: 6px;
+    background-color: var(--background-color-primary);
+}
+
 .profile-icon {
     width: 200px;
     height: 200px;
