@@ -134,6 +134,12 @@ nav {
     
     #nav-right-menu {
         display: none;
+        float: left;
+        top: 4rem;
+    }
+
+    .nav-item {
+        display: block;
     }
 }
 
