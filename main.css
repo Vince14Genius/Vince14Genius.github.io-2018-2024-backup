@@ -112,7 +112,7 @@ nav {
     height: 1.6rem;
     border: 2px solid rgba(128, 224, 224, 0.5);
     border-radius: 0.8rem;
-    top: 0.5rem;
+    top: 0.4rem;
 }
 
 .nav-link {
@@ -219,7 +219,7 @@ img.centered {
 
 #main-content {
     padding: 3.6rem 1.2rem 2.4rem 1.2rem;
-    background-color: #202020;
+    background-color: var(--background-color-secondary);
     overflow: hidden;
 }
 
