@@ -127,6 +127,16 @@ nav {
     display: none;
 }
 
+@media (max-width: 800px) {
+    #nav-right-button {
+        display: none;
+    }
+    
+    #nav-right-menu {
+        display: inline-block;
+    }
+}
+
 /******** MARK: Footer ********/
 
 footer {
