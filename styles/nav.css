@@ -91,9 +91,17 @@ nav>div {
     display: none;
 }
 
+#nav-pulldown-menu {
+    position: fixed;
+    top: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
 #nav-pulldown-menu .nav-item {
     display: block;
-    margin-top: 0.5rem;
+    margin: 0.75rem 1rem;
 }
 
 @media (max-width: 799px) {
