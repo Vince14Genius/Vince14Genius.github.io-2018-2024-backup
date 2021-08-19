@@ -1,0 +1,114 @@
+/******** MARK: Navigation Bar ********/
+
+#skip-to-main-button {
+    position: fixed;
+    right: -1000px;
+    top: -1000px;
+}
+
+nav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #0a0a0a;
+    padding: 2px 0;
+}
+
+@supports ( -webkit-backdrop-filter: none ) or ( backdrop-filter: none ) {
+    nav {
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+    }
+}
+
+nav>div {
+    display: flex;
+}
+
+.nav-left {
+    display: inline-block;
+    margin: auto 1rem;
+}
+
+.nav-left-inner {
+    /* currently not needed */
+}
+
+.nav-right {
+    display: inline-block;
+    margin-right: 1rem;
+    float: right;
+}
+
+.nav-ul {
+    list-style-type: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 1.2rem;
+}
+
+.nav-image {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top: 0.1rem;
+}
+
+#nav-profile-picture {
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 2px solid rgba(128, 224, 224, 0.5);
+    border-radius: 0.8rem;
+    margin-top: -0.4rem;
+    top: 0.4rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+    transition: opacity 0.33s;
+    -moz-transition: opacity 0.33s;
+    -webkit-transition: opacity 0.33s;
+    -ms-transition: opacity 0.33s;
+}
+
+.nav-link:hover {
+    opacity: 0.5;
+}
+
+.nav-left .nav-link {
+    color: #80E0E0;
+}
+
+#nav-right-button {
+    display: none;
+}
+
+@media (max-width: 799px) {
+    #nav-right-button {
+        display: inline-block;
+    }
+    
+    #nav-right-menu {
+        display: none;
+        float: left;
+        top: 4rem;
+    }
+
+    .nav-item {
+        display: block;
+    }
+}
+
+@media (min-width: 800px) {
+    #nav-right-menu {
+        display: inline-block;
+    }
+}
