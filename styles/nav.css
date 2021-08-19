@@ -91,6 +91,11 @@ nav>div {
     display: none;
 }
 
+#nav-pulldown-menu .nav-item {
+    display: block;
+    margin-top: 0.5rem;
+}
+
 @media (max-width: 799px) {
     #nav-right-button {
         display: inline-block;
@@ -100,10 +105,6 @@ nav>div {
         display: none;
         float: left;
         top: 4rem;
-    }
-
-    .nav-item {
-        display: block;
     }
 }
 
