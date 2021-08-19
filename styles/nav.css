@@ -87,7 +87,8 @@ nav>div {
     color: #80E0E0;
 }
 
-#nav-right-button {
+#nav-right-button,
+#nav-pulldown-menu {
     display: none;
 }
 
@@ -108,7 +109,7 @@ nav>div {
 }
 
 @media (min-width: 800px) {
-    #nav-right-menu {
-        display: inline-block;
+    #nav-pulldown-menu {
+        display: none important;
     }
 }
