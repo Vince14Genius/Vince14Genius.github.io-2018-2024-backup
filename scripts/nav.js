@@ -1,7 +1,7 @@
 "use strict"
 
 function toggleMenu() {
-    const menuElement = document.getElementById("nav-right-menu")
+    const menuElement = document.getElementById("nav-pulldown-menu")
     menuElement.style.display = menuElement.style.display === "none" ? "block" : "none"
 }
 
@@ -21,6 +21,12 @@ universalNav.innerHTML = `
       <a class="nav-link" onclick="toggleMenu()"><img class="nav-image" alt="Menu"></a>
     </div>
     <ul class="nav-right nav-ul" id="nav-right-menu">
+      <li class="nav-item"><a class="nav-link light-text" href="/about">About</a>
+      <li class="nav-item"><a class="nav-link light-text" href="/projects">Projects</a>
+      <li class="nav-item"><a class="nav-link light-text link-disabled">Blog</a>
+      <!--<li class="nav-item"><a class="nav-link" href="/site-map"><img class="nav-image" alt="Site Map" src="/images/search.svg"></a>-->
+    </ul>
+    <ul class="nav-right nav-ul" id="nav-pulldown-menu" style="display: none;">
       <li class="nav-item"><a class="nav-link light-text" href="/about">About</a>
       <li class="nav-item"><a class="nav-link light-text" href="/projects">Projects</a>
       <li class="nav-item"><a class="nav-link light-text link-disabled">Blog</a>
