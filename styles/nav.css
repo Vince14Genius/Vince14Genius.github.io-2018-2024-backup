@@ -110,6 +110,6 @@ nav>div {
 
 @media (min-width: 800px) {
     #nav-pulldown-menu {
-        display: none important;
+        display: none !important;
     }
 }
