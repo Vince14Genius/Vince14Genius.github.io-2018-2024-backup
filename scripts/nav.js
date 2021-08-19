@@ -10,6 +10,7 @@ universalNav.innerHTML = `
 <a id="skip-to-main-button" href="#main-content">Skip to main content</a>
 
 <nav>
+  <!-- Regular Menu -->
   <div class="exterior-width-wrapper">
     <div class="nav-left">
       <a class="nav-link light-text" href="/">
@@ -26,7 +27,11 @@ universalNav.innerHTML = `
       <li class="nav-item"><a class="nav-link light-text link-disabled">Blog</a>
       <!--<li class="nav-item"><a class="nav-link" href="/site-map"><img class="nav-image" alt="Site Map" src="/images/search.svg"></a>-->
     </ul>
-    <ul class="nav-right nav-ul" id="nav-pulldown-menu" style="display: none;">
+  </div>
+  
+  <!-- Pulldown Menu -->
+  <div class="exterior-width-wrapper" id="nav-pulldown-menu" style="display: none;">
+    <ul class="nav-right nav-ul">
       <li class="nav-item"><a class="nav-link light-text" href="/about">About</a>
       <li class="nav-item"><a class="nav-link light-text" href="/projects">Projects</a>
       <li class="nav-item"><a class="nav-link light-text link-disabled">Blog</a>
