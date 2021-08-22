@@ -11,7 +11,7 @@ universalNav.innerHTML = `
 
 <nav>
   <!-- Regular Menu -->
-  <div class="exterior-width-wrapper">
+  <div class="exterior-width-wrapper full-height">
     <div class="nav-left">
       <a class="nav-link light-text" href="/">
         <img class="nav-image" id="nav-profile-picture" alt="Profile" src="/images/profile.png">
