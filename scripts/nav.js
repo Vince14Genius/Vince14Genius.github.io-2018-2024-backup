@@ -19,10 +19,10 @@ universalNav.innerHTML = `
       </a>
     </div>
     <div class="nav-right" id="nav-right-button">
-      <a class="nav-link" onclick="toggleMenu()">
+      <div class="nav-link" onclick="toggleMenu()">
         <span class="menu-button-top"></span>
         <span class="menu-button-bottom"></span>
-      </a>
+      </div>
     </div>
     <ul class="nav-right nav-ul" id="nav-right-menu">
       <li class="nav-item"><a class="nav-link light-text" href="/about">About</a>
