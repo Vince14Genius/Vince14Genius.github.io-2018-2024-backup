@@ -134,7 +134,8 @@ nav>div {
   left: 0.2rem;
 }
 
-#nav-right-button {
+#nav-right-button,
+#nav-right-button > a {
     width: 1.6rem;
     height: 1.6rem;
     -background: rgba(255,255,255,0.5); 
