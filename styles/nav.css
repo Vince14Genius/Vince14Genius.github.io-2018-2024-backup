@@ -122,3 +122,31 @@ nav>div {
         display: none !important;
     }
 }
+
+.menu-button-top,
+.menu-button-bottom {
+  position: relative;
+  display: block;
+  width: 1rem;
+  height: 2px;
+  background: #e0e0e0;
+  transition: transform 0.33s;
+}
+
+.menu-button-top {
+  bottom: 2px;
+  transform: translateY(-2px);
+}
+
+.menu-button-bottom {
+  bottom: 4px;
+  transform: translateY(3px);
+}
+
+.nav-right:hover > .menu-button-top {
+  transform: scaleX(1.1) scaleY(1.1) rotate(0.125turn);
+}
+
+.nav-right:hover > .menu-button-bottom {
+  transform: scaleX(1.1) scaleY(1.1) rotate(-0.125turn);
+}
