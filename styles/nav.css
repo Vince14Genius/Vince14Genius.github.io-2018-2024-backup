@@ -135,10 +135,9 @@ nav>div {
 }
 
 #nav-right-button,
-#nav-right-button > a {
+#nav-right-button > .nav-link {
     width: 1.6rem;
     height: 1.6rem;
-    -background: rgba(255,255,255,0.5); 
 }
 
 .menu-button-top {
