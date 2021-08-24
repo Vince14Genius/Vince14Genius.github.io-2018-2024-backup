@@ -108,24 +108,6 @@ nav>div {
     margin-left: -1.6rem;
 }
 
-@media (max-width: 799px) {
-    #nav-right-button {
-        display: inline-block;
-    }
-    
-    #nav-right-menu {
-        display: none;
-        float: left;
-        top: 4rem;
-    }
-}
-
-@media (min-width: 800px) {
-    #nav-pulldown-menu {
-        display: none !important;
-    }
-}
-
 .menu-button-top,
 .menu-button-bottom {
     position: relative;
@@ -173,4 +155,26 @@ nav>div {
   z-index: 99999;
   background: white;
   opacity: 0.33;
+}
+
+.menu-hidden-checkbox:checked ~ #nav-pulldown-menu {
+    display: block;
+}
+
+@media (max-width: 799px) {
+    #nav-right-button {
+        display: inline-block;
+    }
+    
+    #nav-right-menu {
+        display: none;
+        float: left;
+        top: 4rem;
+    }
+}
+
+@media (min-width: 800px) {
+    #nav-pulldown-menu {
+        display: none !important;
+    }
 }
