@@ -127,13 +127,13 @@ nav>div {
 
 .menu-button-top,
 .menu-button-bottom {
-  position: relative;
-  display: block;
-  width: 20px;
-  height: 2px;
-  background: #e0e0e0;
-  transition: transform 0.33s;
-  left: 11px;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #e0e0e0;
+    transition: transform 0.33s;
+    left: 11px;
 }
 
 #nav-right-button,
@@ -144,19 +144,19 @@ nav>div {
 }
 
 .menu-button-top {
-  top: 22px;
-  transform: translateY(-3px);
+    top: 22px;
+    transform: translateY(-3px);
 }
 
 .menu-button-bottom {
-  top: 20px;
-  transform: translateY(3px);
+    top: 20px;
+    transform: translateY(3px);
 }
 
 #nav-right-button:hover .menu-button-top {
-  transform: scaleX(1.1) scaleY(1.1) rotate(0.125turn);
+    transform: scaleX(1.1) scaleY(1.1) rotate(0.125turn);
 }
 
 #nav-right-button:hover .menu-button-bottom {
-  transform: scaleX(1.1) scaleY(1.1) rotate(-0.125turn);
+    transform: scaleX(1.1) scaleY(1.1) rotate(-0.125turn);
 }
