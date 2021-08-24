@@ -87,8 +87,7 @@ nav>div {
     color: #80E0E0;
 }
 
-#nav-right-button,
-#nav-pulldown-menu {
+#nav-right-button {
     display: none;
 }
 
@@ -100,6 +99,18 @@ nav>div {
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
+    
+    /* Transition */
+    overflow: hidden;
+    transition: opacity 0.33s, transform 0.33s;
+    -moz-transition: opacity 0.33s, transform 0.33s;
+    -webkit-transition: opacity 0.33s, transform 0.33s;
+    -ms-transition: opacity 0.33s, transform 0.33s;
+    
+    /* Initial state */
+    display: block;
+    opacity: 0;
+    transform: translateY(-50%) scaleY(0);
 }
 
 #nav-pulldown-menu .nav-item {
@@ -156,7 +167,9 @@ nav>div {
 }
 
 .menu-hidden-checkbox:checked ~ #nav-pulldown-menu {
-    display: block;
+    opacity: 1.0;
+    transform: translateY(0) scaleY(1);
+    color: inherit;
 }
 
 @media (max-width: 799px) {
