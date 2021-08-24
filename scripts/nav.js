@@ -1,10 +1,5 @@
 "use strict"
 
-function toggleMenu() {
-    const menuElement = document.getElementById("nav-pulldown-menu")
-    menuElement.style.display = menuElement.style.display === "none" ? "block" : "none"
-}
-
 const universalNav = document.getElementById("universal-nav")
 universalNav.innerHTML = `
 <a id="skip-to-main-button" href="#main-content">Skip to main content</a>
@@ -29,14 +24,14 @@ universalNav.innerHTML = `
     <div class="nav-right" id="nav-right-button">
     
       <!-- Menu Button -->
-      <input type="checkbox" class="menu-hidden-checkbox" onclick="toggleMenu()">
+      <input type="checkbox" class="menu-hidden-checkbox">
       <div class="nav-link">
         <span class="menu-button-top"></span>
         <span class="menu-button-bottom"></span>
       </div>
   
       <!-- The Pulldown Menu Itself -->
-      <div class="exterior-width-wrapper" id="nav-pulldown-menu" style="display: none;">
+      <div class="exterior-width-wrapper" id="nav-pulldown-menu">
         <ul class="nav-right nav-ul">
           <li class="nav-item"><a class="nav-link light-text" href="/about">About</a>
           <li class="nav-item"><a class="nav-link light-text" href="/projects">Projects</a>
