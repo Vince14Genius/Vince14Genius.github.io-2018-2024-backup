@@ -154,10 +154,23 @@ nav>div {
     transform: translateY(3px);
 }
 
-#nav-right-button:hover .menu-button-top {
+.menu-hidden-checkbox:checked .menu-button-top {
     transform: scaleX(1.1) scaleY(1.1) rotate(0.125turn);
 }
 
-#nav-right-button:hover .menu-button-bottom {
+.menu-hidden-checkbox:checked .menu-button-bottom {
     transform: scaleX(1.1) scaleY(1.1) rotate(-0.125turn);
+}
+
+.menu-hidden-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  
+  position: absolute;
+  top: 0;
+  width: 44px;
+  height: 44px;
+  z-index: 99999;
+  background: white;
+  opacity: 0.33;
 }
