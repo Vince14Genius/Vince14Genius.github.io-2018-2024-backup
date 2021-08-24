@@ -152,8 +152,7 @@ nav>div {
   width: 44px;
   height: 44px;
   z-index: 99999;
-  background: blue;
-  opacity: 0.33;
+  opacity: 0;
 }
 
 .menu-hidden-checkbox:checked ~ #nav-pulldown-menu {
