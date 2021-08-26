@@ -115,7 +115,6 @@ nav>div {
 
 #nav-pulldown-menu .nav-item {
     display: block;
-    margin: 0.75rem 0;
     margin-left: -1.6rem;
 }
 
@@ -188,4 +187,24 @@ nav>div {
     #nav-pulldown-menu {
         display: none !important;
     }
+}
+
+#nav-pulldown-menu ul,
+#nav-pulldown-menu li,
+#nav-pulldown-menu .nav-link {
+    width: 100%;
+}
+
+#nav-pulldown-menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#nav-pulldown-menu li:last-of-type {
+    border-bottom: none;
+}
+
+#nav-pulldown-menu .nav-link {
+    display: inline-block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
