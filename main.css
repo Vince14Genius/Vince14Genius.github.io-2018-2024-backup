@@ -5,6 +5,7 @@
     --text-color-hint: #c0e0e0;
     --text-color-accent: #80e0e0;
     --text-color-secondary: #c0c0c0;
+    --text-color-warning: #ff5030;
     --background-color-primary: #141414;
     --background-color-secondary: #202020;
     --background-color-tertiary: #303030;
@@ -38,6 +39,10 @@ p {
 a {
     color: var(--text-color-accent);
     text-decoration: none;
+}
+
+noscript {
+    color: var(--text-color-warning);
 }
 
 /******** MARK: General Custom Classes ********/
