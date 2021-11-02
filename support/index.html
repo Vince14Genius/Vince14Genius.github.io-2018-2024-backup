@@ -4,6 +4,27 @@
 
 <!-- Unique Head -->
 <title>Vince14Genius - Support</title>
+<script>
+  'use strict';
+  
+  function switchToLanguage(languageCode) {
+    for (let element of document.getElementsByClassName("multilang")) {
+      if (element.lang === languageCode) {
+        element.style.display = "block";
+      } else {
+        element.style.display = "none";
+      }
+    }
+  }
+  
+  window.addEventListener('load', (event) => {
+    switchToLanguage("en");
+    
+    document.getElementById("select-language").addEventListener('change', (event) => {
+      switchToLanguage(event.target.value);
+    });
+  });
+</script>
 
 <!-- Common Body -->
 <div id="universal-nav"></div>
@@ -13,11 +34,18 @@
 <main id="main-content">
   <div class="main-width-wrapper">
     <h1>Support/サポート/Subteno/支持/支援</h1>
-    <p lang="en">For those seeking support for any apps by Vince14Genius, or if you want to file a bug-report:
-    <p lang="ja">Vince14Geniusのアプリのサポート・バグ報告・お問い合わせメイル：
-    <p lang="eo">Se vi bezonas subtenon por programetoj de Vince14Genius, aŭ se vi volas sendi cimo-raportojn:
-    <p lang="zh-Hans">在使用 Vince14Genius 的 App 时遇到问题可联系以下邮箱：
-    <p lang="zh-Hant">使用 Vince14Genius 的 App 時如果遇到問題可以聯繫以下電郵：
+    <select id="select-language" name="Language">
+      <option value="en">English</option>
+      <option value="ja">日本語</option>
+      <option value="eo">Esperanto</option>
+      <option value="zh-Hans">简体中文</option>
+      <option value="zh-Hant">繁體中文</option>
+    </select>
+    <p class="multilang" lang="en">For those seeking support for any apps by Vince14Genius, or if you want to file a bug-report:
+    <p class="multilang" lang="ja">Vince14Geniusのアプリのサポート・バグ報告・お問い合わせメイル：
+    <p class="multilang" lang="eo">Se vi bezonas subtenon por programetoj de Vince14Genius, aŭ se vi volas sendi cimo-raportojn:
+    <p class="multilang" lang="zh-Hans">在使用 Vince14Genius 的 App 时遇到问题可联系以下邮箱：
+    <p class="multilang" lang="zh-Hant">使用 Vince14Genius 的 App 時如果遇到問題可以聯繫以下電郵：
     <p><strong>Email <a href="mailto:vince14genius@protonmail.com">vince14genius@protonmail.com</a></strong>
   </div>
 </main>
