@@ -139,6 +139,18 @@ img.centered {
     height: 3rem;
     margin: 0.5rem;
     display: inline-block;
+    
+    -webkit-transition: scale 0.3s;
+    -moz-transition: scale 0.3s;
+    -ms-transition: scale 0.3s;
+    transition: scale 0.3s;
+}
+
+.social-media-link:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .social-media-link img {
