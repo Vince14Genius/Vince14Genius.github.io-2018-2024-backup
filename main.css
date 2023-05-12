@@ -136,6 +136,13 @@ img.centered {
     margin-top: 2rem;
 }
 
+.quaternary-box {
+    border-radius: 8px;
+    background-color: var(--background-color-secondary);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
 .profile-icon {
     width: 200px;
     height: 200px;
