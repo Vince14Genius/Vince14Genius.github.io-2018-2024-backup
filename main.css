@@ -4,6 +4,7 @@
     --text-color-primary: #e0e0e0;
     --text-color-hint: #c0e0e0;
     --text-color-accent: #80e0e0;
+    --text-color-link: #40a0ff;
     --text-color-secondary: #c0c0c0;
     --text-color-warning: #ff5030;
     --background-color-primary: #141414;
@@ -37,7 +38,7 @@ p {
 }
 
 a {
-    color: var(--text-color-accent);
+    color: var(--text-color-link);
     text-decoration: none;
 }
 
