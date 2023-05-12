@@ -171,3 +171,34 @@ img.centered {
     margin-bottom: 2rem;
     color: var(--text-color-secondary);
 }
+
+/* Language Proficiency Labels */
+
+.language-inline-label-native,
+.language-inline-label-fluent,
+.language-inline-label-conversational,
+.language-inline-label-beginner {
+    display: inline-block;
+    padding: 0.2rem 0.2rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--background-color-primary);
+    text-transform: uppercase;
+}
+
+.language-inline-label-native {
+    background-color: #4060ff;
+}
+
+.language-inline-label-fluent {
+    background-color: #20c080;
+}
+
+.language-inline-label-conversational {
+    background-color: #e0c000;
+}
+
+.language-inline-label-beginner {
+    background-color: #e04040;
+}

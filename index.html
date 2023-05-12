@@ -11,6 +11,14 @@
     justify-content: center;
   }
 
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .flex-spacing {
+    gap: 2rem;
+  }
+
   .spacer {
     flex-grow: 1;
   }
@@ -48,6 +56,22 @@
         </a>
       </p>
     </section>
+
+    <div class="h-stack flex-wrap flex-spacing">
+      <section class="bordered-section spacer">
+        <h2>About</h2>
+        <p>Coder. Designer. Linguist. 打ち師。ボカロ／vtuber厨。</p>
+        <p>UCSD '23 CS+Ling | Apple SWE Intern '22 | WWDC 17/20/23</p>
+        <p><span class="language-inline-label-native">Native:</span> English, 中文, <span class="language-inline-label-fluent">Fluent:</span> 日本語,</p>
+        <p><span class="language-inline-label-conversational">Conversational:</span> Esperanto, <span class="language-inline-label-beginner">Beginner:</span> (...)</p>
+        <p><a href="/about">Read More ></a></p>
+      </section>
+
+      <section class="bordered-section spacer">
+        <h2>Projects</h2>
+        <p><a href="/projects">See More ></a></p>
+      </section>
+    </div>
 
     <section class="bordered-section">
       <h2>Recent Updates・最新の出来事</h2>
