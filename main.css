@@ -139,8 +139,7 @@ img.centered {
 .quaternary-box {
     border-radius: 8px;
     background-color: var(--background-color-secondary);
-    padding: 2rem;
-    margin-top: 2rem;
+    padding: 0.8rem 2rem;
 }
 
 .profile-icon {
