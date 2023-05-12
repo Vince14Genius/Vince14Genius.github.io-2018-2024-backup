@@ -55,6 +55,14 @@ noscript {
     text-align: center;
 }
 
+.leading {
+    text-align: left;
+}
+
+.trailing {
+    text-align: right;
+}
+
 img.centered {
     margin-left: auto;
     margin-right: auto;
@@ -179,7 +187,7 @@ img.centered {
 .language-inline-label-conversational,
 .language-inline-label-beginner {
     display: inline-block;
-    padding: 0.2rem 0.2rem;
+    padding: 0.2rem 0.4rem;
     border-radius: 4px;
     font-size: 0.8rem;
     font-weight: 500;
