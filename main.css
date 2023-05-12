@@ -161,6 +161,13 @@ img.centered {
 .branding-name-heading {
     font-weight: normal;
     font-size: x-large;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     color: var(--text-color-hint);
+}
+
+.branding-name-heading {
+    font-weight: normal;
+    font-size: large;
+    margin-bottom: 2rem;
+    color: var(--text-color-secondary);
 }
