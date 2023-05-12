@@ -124,6 +124,7 @@ img.centered {
     border-radius: 8px;
     background-color: var(--background-color-tertiary);
     padding: 2rem;
+    margin-top: 2rem;
 }
 
 .profile-icon {
