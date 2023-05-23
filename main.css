@@ -46,6 +46,10 @@ noscript {
     color: var(--text-color-warning);
 }
 
+th {
+    font-weight: bold;
+}
+
 /******** MARK: General Custom Classes ********/
 
 .compact-line-height {
